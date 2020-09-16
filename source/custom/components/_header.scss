@@ -1,0 +1,40 @@
+.ap-header-item-link {
+	font-size: 0.75rem;
+	@include media-breakpoint-up(md) {
+		padding: 1.50rem 1rem;
+	}
+}
+
+.ap-header-item-i {
+	font-size: 1.1rem;
+	@include media-breakpoint-up(md) {
+		padding: 1.50rem 0.75rem;
+		margin: 0;
+	}
+}
+
+.ap-header-item-active {
+	background-color: $ap-white;
+	.nav-link {
+		color: $ap-black !important;
+	}
+}
+
+.navbar {
+	@include media-breakpoint-up(md) {
+		padding: 0;
+		height: 65px;
+	}
+}
+
+.container-navbar {
+	max-width: 100%;
+	@include media-breakpoint-up(md) {
+		padding: 0 2rem 0 6rem;
+	}
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+	padding-left: 0.8rem;
+	padding-right: 0.8rem;
+}

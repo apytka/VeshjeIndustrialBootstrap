@@ -1,0 +1,48 @@
+.ap-services-box {
+	margin-bottom: 40px;
+}
+
+.ap-services-box-top {
+	margin-bottom: 1.4rem;
+}
+
+.ap-services-box-img {
+	margin: 10px 20px 0 10px;
+	background-color: rgba($gray-800, 90%);
+	@include ap-size(85px, 85px);
+	@include ap-relative-zindex;
+}
+
+.ap-services-box-title {
+	margin-top: 1.75rem;
+}
+
+.ap-services-box-header {
+	font-size: 1.125rem;
+	line-height: 1.2;
+	@include ap-font-light-secondary;
+}
+
+
+.ap-services-box-text {
+	line-height: 2;
+}
+
+
+.ap-services-box-shadow {
+	position: absolute;
+	top: 0;
+	left: 15px;
+	@include ap-size(85px, 85px);
+	background-color: rgba($ap-accent-color, 0.90);
+}
+
+.ap-services-box-shadow-active {
+	background-color: rgba($ap-accent-color, 2);
+}
+
+.ap-services-box-img-icon {
+	padding: 1.55rem;
+	font-size: 2rem;
+	color: $ap-white;
+}

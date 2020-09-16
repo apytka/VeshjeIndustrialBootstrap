@@ -1,0 +1,35 @@
+.ap-product-search {
+	padding: 42px 0;
+	.show > .btn-primary.dropdown-toggle {
+	color: darken($ap-product-search-btn-color, 15%);
+}
+}
+
+.ap-product-search-inner {
+	width: 100%;
+	height: 2.2rem;
+	margin: 0 auto;
+	@include media-breakpoint-up(lg) {
+		width: 40%;
+	}
+}
+
+.ap-product-search-control {
+	font-family: $ap-font-family-secondary;
+	font-size: 0.625rem;
+	letter-spacing: 0.1rem;
+}
+
+.ap-product-search-input {
+	padding-left: 1.2rem;
+}
+
+.ap-product-search-control-categories {
+	color: $ap-product-search-btn-color;
+	&:hover {
+		color: darken($ap-product-search-btn-color, 15%);
+	}
+	&:focus {
+		color: darken($ap-product-search-btn-color, 15%);
+	}
+}

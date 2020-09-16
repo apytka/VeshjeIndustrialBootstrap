@@ -1,0 +1,46 @@
+@mixin ap-services-item-active {
+	background-color: $gray-900;
+	a {
+		color: $ap-white;
+		text-decoration: none;
+	}
+	img {
+		filter: brightness(3);
+	}
+}
+
+.ap-services-group {
+	height: 100px;
+	@include ap-background-img('../images/bg/welcome-bg.jpg');
+	@include media-breakpoint-up(lg) {
+		margin-right: -30px;
+	}
+}
+
+.ap-services-item {
+	padding: 1rem 1.3rem 0;
+	text-align: center;
+	@include ap-size(25%,100%);
+	pointer-events: none;
+	&:hover {
+		@include ap-services-item-active;
+		@include ap-basic-transition;
+	}
+	a {
+		pointer-events: auto;
+	}
+	.fas, .fab {
+		padding: 0.5rem 0;
+		font-size: 2rem;
+	}
+}
+
+.ap-services-item-title {
+	margin-top: 0.25rem 0;
+	@include ap-font-light-secondary;
+	font-size: 0.6875rem;
+}
+
+.ap-services-item-active {
+	@include ap-services-item-active;
+}

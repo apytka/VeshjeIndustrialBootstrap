@@ -1,0 +1,54 @@
+.ap-portfolio-box {
+	position: relative;
+}
+
+.ap-portfolio-box-text {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	width: 65%;
+	margin: 0 auto;
+	z-index: 1000;
+	transform: translateY(-50%);
+}
+
+.ap-portfolio-box-title {
+	margin-bottom: 1.2rem;
+	font-size: 1.55rem;
+	letter-spacing: .2rem;
+}
+
+.ap-portfolio-box-img {
+	max-width: 540px;
+	&:hover .ap-portfolio-box-text {
+		display: flex;
+	}
+}
+
+.ap-portfolio-box.featured {
+	max-width: 540px;
+}
+
+.ap-portfolio-img-overlay {
+	&:after {
+		@include ap-bg-overlay($ap-accent-color, .8);	
+	}
+}
+
+.ap-portfolio-item {
+	position: relative;
+	margin-bottom: 1.875rem;
+	.ap-hr {
+		margin: 1rem 0;
+	}
+}
+
+.ap-portfolio-item-info {
+	@include ap-font-light-secondary;
+}
+
+.ap-portfolio-box-header {
+	font-size: 1.125rem;
+	letter-spacing: 0.2rem;
+}

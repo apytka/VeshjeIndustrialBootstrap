@@ -1,0 +1,75 @@
+.ap-post-box {
+	position: relative;
+	max-width: 531px;
+}
+
+.ap-post-box-max {
+	width: 100%;
+	max-width: 100%;
+}
+
+.ap-post-box-date {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	@include ap-size(75px, 75px);
+	@include media-breakpoint-up(md) {
+		@include ap-size(95px, 95px);
+	}
+}
+
+.ap-post-box-date-body {
+	max-width: 90%;
+}
+
+.ap-post-box-date-value {
+	@include ap-font-light-secondary;
+	font-size: 0.625rem;
+	margin-top: 0.3rem;
+}
+
+.ap-post-box-body {
+	position: relative;
+	padding: 10px 0 0 10px;
+}
+
+.ap-post-box-content {
+	position: absolute;
+	top: 35%;
+	right: 0;
+	bottom: 0;
+	left: 10px;
+	padding: 15px 25px;
+	&:after {
+		@include ap-bg-overlay($ap-black, 0.6);
+	}
+	@include media-breakpoint-up(md) {
+		top: 40%;
+	}
+	@include media-breakpoint-up(lg) {
+		top: 50%;
+	}
+}
+
+.ap-post-box-content-inner {
+	@include ap-relative-zindex;
+}
+
+.ap-post-box-title {
+	font-size: 1.2rem;
+	margin-bottom: 0.65rem;
+	@include media-breakpoint-up(md) {
+		font-size: 1.375rem;
+	}
+}
+
+.ap-post-box-text {
+	line-height: 1.55;
+	margin-bottom: 0.3rem;
+}
+
+.ap-post-box-link {
+	font-size: 0.75rem;
+	@include ap-font-light-secondary;
+}

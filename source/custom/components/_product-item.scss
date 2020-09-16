@@ -1,0 +1,66 @@
+.ap-product-item {
+	margin-bottom: 40px;
+	font-family: $ap-font-family-secondary;
+}
+
+.ap-product-item-link {
+	color: $gray-900;
+}
+
+.ap-product-item-img {
+	width: 100%;
+	height: 192px;
+	margin-bottom: 0.75rem;
+	background-color: $gray-200;
+	&:hover {
+		background-color: darken($gray-200, 10%);
+	}
+	@include ap-basic-secondary-transition;
+}
+
+.ap-product-item-img-link {
+	width: 100%;
+	height: 192px;
+	margin-bottom: 0.75rem;
+}
+
+.ap-product-name {
+	color: $ap-accent-color;
+	margin-bottom: 0;
+	letter-spacing: 0.05rem;	
+}
+
+.ap-product-desc {
+	margin-bottom: 0.5rem;
+	font-weight: 300;
+}
+
+.ap-product-price {
+	font-size: 0.9rem;
+	font-weight: 500;
+	letter-spacing: 0.1rem;
+}
+
+.ap-product-item-icons {
+	display: none;
+	position: absolute;
+	top: 0.5rem;
+	right: 1.65rem;
+}
+
+.ap-product-item-icon {
+	margin-bottom: 0.75rem;
+	background-color: $gray-900;
+	@include ap-size(35px, 35px);
+	@include ap-basic-secondary-transition;
+	&:hover {
+		background-color: $ap-accent-color;
+	}
+}
+
+.ap-product-item-desc {
+	height: 100%;
+	@include media-breakpoint-up(sm) {
+		min-height: 85px;	
+	}
+}

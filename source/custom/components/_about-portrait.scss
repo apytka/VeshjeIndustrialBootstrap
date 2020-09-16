@@ -1,0 +1,16 @@
+.ap-about-portrait-img {
+	@include ap-size(130px, 130px);
+	margin-bottom: 0.85rem;
+}
+
+.ap-about-portrait {
+	margin: 1rem;
+	font-size: 0.7rem;
+}
+
+.ap-about-portrait-name {
+	font-family: $ap-font-family-secondary;
+	font-size: 1rem;
+	line-height: 1.2;
+	letter-spacing: 0.1rem;
+}

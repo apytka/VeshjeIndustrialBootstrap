@@ -1,0 +1,21 @@
+.ap-shop-page {
+	padding: 40px 0 35px;
+	.ap-product-search {
+		margin-bottom: 50px;
+	}
+}
+
+.ap-product-list-intro {
+	width: 100%;
+	@include media-breakpoint-up(lg) {
+		width: 70%;
+	}
+}
+
+.ap-product-list-intro-desc {
+	font-weight: 300;
+}
+
+.ap-products {
+	padding: 0 0 15px;
+}

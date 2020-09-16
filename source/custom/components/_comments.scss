@@ -1,0 +1,47 @@
+.ap-comments {
+	padding: 45px 0 25px;
+}
+
+.ap-comment {
+	padding-top: 0.75rem;
+}
+
+.ap-comment-avatar {
+	margin-right: 1rem;
+	border-radius: 50%;
+	@include ap-size(48px, 48px);
+}
+
+.ap-comment-fa-user {
+	color: $ap-white;
+	font-size: 18px;
+}
+
+.ap-comment-meta {
+	margin: 0.25rem 0;
+}
+
+.ap-comment-username {
+	font-family: $ap-font-family-secondary;
+	font-weight: 700;
+	letter-spacing: 0.075rem;
+}
+
+.ap-comment-date {
+	font-family: $ap-font-family-secondary;
+	font-weight: 200;
+	letter-spacing: 0.1rem;
+	font-size: 0.70rem;
+}
+
+.ap-comment-text {
+	margin-right: 4rem;
+	font-size: 0.75rem;
+	line-height: 2;
+}
+
+.ap-comment-fa-reply {
+	color: $gray-400;
+	font-size: 0.8rem;
+}
+

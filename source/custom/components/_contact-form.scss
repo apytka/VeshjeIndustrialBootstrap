@@ -1,0 +1,31 @@
+.ap-contact-form {
+	margin-top: 2.3rem;
+	margin-left: 1.3rem;
+	padding: 2rem 2rem 2rem 5rem;
+	box-shadow: -1.3rem -1.3rem 0 rgba($ap-contact-form-shadow, 1);
+	@include ap-background-img('../images/bg/contact-form-bg-3.jpg');
+}
+
+.ap-contact-form-header {
+	margin-bottom: 0.75rem;
+	letter-spacing: 0.08rem;
+}
+
+.ap-form-group {
+	margin-bottom: 0.25rem;
+}
+
+.ap-contact-form-control {
+	background-color: rgba($gray-100, 0.8);
+	&:focus {
+		background-color: rgba($gray-100, 0.9);
+	}
+}
+
+.ap-contact-form-btn {
+	margin-top: 0.75rem;
+	padding: 0.1rem 0.5rem;
+	font-family: $ap-font-family-body;
+	font-size: 0.625rem;
+	letter-spacing: 0.075rem;
+}

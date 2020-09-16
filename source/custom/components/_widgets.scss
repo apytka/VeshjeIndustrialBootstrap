@@ -1,0 +1,93 @@
+.ap-post-widget {
+	margin-bottom: 30px;
+	padding: 1rem 2rem;
+	background-color: $gray-200;
+}
+
+.ap-post-widget-header {
+	mask-type: 1rem;
+	letter-spacing: 0.1rem;
+}
+
+.ap-post-widget-list-item {
+	padding-left: 1.25rem;
+	padding-right: 2.5rem;
+}
+
+.ap-post-widget-link {
+	color: $gray-900;
+	font-size: 0.875rem;
+	@include ap-font-light-secondary;
+}
+
+.ap-post-widget-search {
+	padding: 0 0.75rem;
+}
+
+.ap-post-widget-search-input {
+	font-family: $ap-font-family-secondary;
+	font-weight: 400;
+	font-size: 0.875rem;
+	letter-spacing: 0.2rem;
+	&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+		color: $gray-400;
+	}
+	&::-moz-placeholder { /* Firefox 19+ */
+		color: $gray-400;
+	}
+	&:-ms-input-placeholder { /* IE 10+ */
+		color: $gray-400;
+	}
+	&:-moz-placeholder { /* Firefox 18- */
+		color: $gray-400;
+	}
+}
+
+.input-group-search {
+	color: $ap-white;
+}
+
+.ap-post-widget-archive {
+	padding: 1rem 0 0;
+}
+
+.ap-post-widget-archive {
+	margin-bottom: 0.5rem;
+}
+
+.ap-post-archive-header {
+	margin-bottom: 0.75rem;
+}
+
+.ap-post-widget-popular-item {
+	margin: 1.3rem 0;
+}
+
+.ap-post-widget-popular-img {
+	margin-right: 2.5rem;
+}
+
+.media-last-item {
+	margin-bottom: 10px;
+}
+
+.ap-post-widget-categories {
+	padding: 2rem 0 0.8rem;
+}
+
+.ap-post-widget-categories-item {
+	margin-bottom: 0.175rem;
+	margin-right: 0.15rem;
+	padding: 0.4rem 1rem;
+	line-height: 1;
+	text-transform: lowercase;
+	background-color: $ap-black;
+}
+
+.page-item-sign {
+	position: relative;
+	bottom: -3px;
+	padding: 0 0.7rem;
+	font-size: 1.6rem;
+	font-weight: 600;
+}

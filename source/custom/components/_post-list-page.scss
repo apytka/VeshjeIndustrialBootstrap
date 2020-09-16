@@ -1,0 +1,21 @@
+.ap-post-list-page {
+	padding: 0 0 30px;
+}
+
+.ap-view-switcher {
+	padding: 20px 0;
+	.ap-view-switcher-fa {
+	font-size: 1.15rem;
+	text-decoration: none;
+	color: $gray-300;
+		&:hover {
+			color: $gray-900;
+		}
+	}
+	.ap-view-switcher-active {
+		color: $gray-900;
+	}
+}
+
+
+

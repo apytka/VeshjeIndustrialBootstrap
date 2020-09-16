@@ -1,0 +1,67 @@
+.ap-footer-top {
+	position: relative;
+	padding: 80px 0 20px;
+	background: url('../images/bg/footer-bg.jpg') 50% 50% no-repeat;
+	background-size: cover;
+	&:after {
+		@include ap-bg-overlay($ap-black, 0.75);
+
+	}
+}
+
+.ap-footer-top-content {
+	@include ap-relative-zindex;
+}
+
+.ap-footer-text {
+	font-size: 0.75rem;
+	color: $gray-600;
+}
+
+.ap-footer-p {
+	line-height: 2;
+}
+
+.ap-footer-contact-list {
+	margin-bottom: 0.75rem;
+}
+
+.ap-footer-contact-item {
+	padding: 0.2rem 0;
+}
+
+.ap-social-icon {
+	font-size: 0.85rem;
+	color: $ap-white;
+		&:hover {
+			color: $gray-200;
+		}
+}
+
+.ap-social-box {
+	@include ap-size(26px, 26px);
+}
+
+.ap-newsletter-form-group {
+	margin-bottom: 0.75rem;
+}
+
+.ap-newsletter-form-control {
+	height: 1.55rem;
+	font-size: 0.75rem;
+}
+
+.ap-newsletter-btn {
+	font-size: 0.625rem;
+	padding: 0.25rem 1rem;
+}
+
+.ap-copy {
+	padding: 1rem 0;
+	font-size: .75rem;
+}
+
+.ap-copy-second {
+	margin-top: 0.25rem;
+	font-size: 0.5625rem;
+}
